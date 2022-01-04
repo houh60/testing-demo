@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { ComputeComponent } from './compute/compute.component';
 import { GreetComponent } from './greet/greet.component';
 import { GetCurrenciesComponent } from './get-currencies/get-currencies.component';
+import { VoteComponent } from './vote/vote.component';
+import { TodoFormComponent } from './todo-form/todo-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComputeComponent,
     GreetComponent,
-    GetCurrenciesComponent
+    GetCurrenciesComponent,
+    VoteComponent,
+    TodoFormComponent
   ],
   imports: [
     BrowserModule,
